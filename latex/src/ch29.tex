@@ -779,7 +779,7 @@ resource}使用了默认的分配器，它会把使用\texttt{new}分配内存�
 因此，提供\hyperref[ch29.3.1]{额外的getter \texttt{getNameAsString()}}来直接
 创建并返回字符串类型是个好主意：
 \begin{lstlisting}
-    std::string s3 = c4.getNameAsString();      // OK：因此分配内存
+    std::string s3 = c4.getNameAsString();      // OK：一次分配内存
 \end{lstlisting}
 
 \section{后记}
